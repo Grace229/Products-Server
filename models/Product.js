@@ -4,6 +4,7 @@ const { model, Schema } = mongoose;
 let productSchema = new Schema({
     productName: String,
     productPrice: String,
+    description: String,
     productImage: String,
 }, { timestamps: true });
 
